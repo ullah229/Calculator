@@ -12,26 +12,26 @@
             <ColumnDefinition Width="277*"/>
             <ColumnDefinition Width="139*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="51" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="396" Margin="15,58,0,0" Grid.Column="1" Grid.ColumnSpan="2" PreviewTextInput="textbox1_PreviewTextInput" Background="Black" SelectionBrush="#FFFB1700" Foreground="White"/>
-        <Button Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="118,439,0,0" Height="54" Grid.Column="1" Click="button0_Click" Background="#FF060303" Foreground="White"/>
-        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="118,361,0,0" Height="54" Grid.Column="1" Click="button8_Click" Background="#FF060303" Foreground="White"/>
-        <Button Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="224,361,0,0" Height="54" Grid.Column="1" Click="button9_Click" Grid.ColumnSpan="2" Background="Black" Foreground="White"/>
-        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="118,285,0,0" Height="54" Grid.Column="1" Click="button5_Click" Background="#FF060303" Foreground="White"/>
-        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="224,285,0,0" Height="54" Grid.Column="1" Click="button6_Click" Grid.ColumnSpan="2" Background="Black" Foreground="#FFFFF7F7"/>
-        <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="224,208,0,0" Height="54" Click="button3_Click" Grid.Column="1" Grid.ColumnSpan="2" Background="Black" Foreground="White"/>
-        <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="118,208,0,0" Height="54" Click="button2_Click" Grid.Column="1" Background="#FF060303" Foreground="White"/>
-        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="15,361,0,0" Height="54" Grid.Column="1" Click="button7_Click" Background="Black" Foreground="White"/>
-        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="15,285,0,0" Height="54" Click="button4_Click" Grid.Column="1" Background="Black" Foreground="White"/>
-        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="15,208,0,0" Height="54" Click="button1_Click" Grid.Column="1" Background="Black" Foreground="White"/>
-        <Button Content="." HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="224,439,0,0" Height="54" Grid.Column="1" Click="buttondot_Click" Grid.ColumnSpan="2" Background="#FF060303" Foreground="White"/>
-        <Button Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="43,208,0,0" Height="54" Click="buttonad_Click" Grid.Column="2" Background="Black" Foreground="White"/>
-        <Button Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="43,285,0,0" Height="54" Click="buttonsub_Click" Grid.Column="2" Background="Black" Foreground="White"/>
-        <Button Content="X" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="43,361,0,0" Height="54" Click="buttonmul_Click" Grid.Column="2" Background="Black" Foreground="White"/>
-        <Button Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="43,439,0,0" Height="54" Click="buttondiv_Click" Grid.Column="2" Background="#FF060303" Foreground="White"/>
-        <Button Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="15,439,0,0" Height="54" Click="buttoneq_Click" Grid.Column="1" Background="#FF060303" Foreground="White"/>
-        <Button Content="C" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="224,135,0,0" Height="55" Click="buttonc_Click" Grid.Column="1" Grid.ColumnSpan="2" Background="Black" Foreground="White"/>
-        <Button Content="DEL" HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" Margin="15,135,0,0" Height="55" Click="buttondel_Click" Grid.Column="1" Background="Black" Foreground="White"/>
-        <TextBox x:Name="path" HorizontalAlignment="Left" Height="28" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" Margin="15,16,0,0" Grid.Column="1" Grid.ColumnSpan="2" PreviewTextInput="textbox1_PreviewTextInput" Background="Black" Foreground="White"/>
-        <Button x:Name="PI" Content="PI" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="43,135,0,0" Height="55" Click="Pi_Click" Grid.Column="2" Background="Black" Foreground="White"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="51" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="396" Margin="15,58,0,0" Grid.Column="1" Grid.ColumnSpan="2" PreviewTextInput="textbox1_PreviewTextInput" Background="Black" SelectionBrush="#FFFB1700" Foreground="White" FontSize="18"/>
+        <Button Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="118,439,0,0" Height="54" Grid.Column="1" Click="button0_Click" Background="#FF060303" Foreground="White" FontSize="20"/>
+        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="118,361,0,0" Height="54" Grid.Column="1" Click="button8_Click" Background="#FF060303" Foreground="White" FontSize="20"/>
+        <Button Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="224,361,0,0" Height="54" Grid.Column="1" Click="button9_Click" Grid.ColumnSpan="2" Background="Black" Foreground="White" FontSize="20"/>
+        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="118,285,0,0" Height="54" Grid.Column="1" Click="button5_Click" Background="#FF060303" Foreground="White" FontSize="20"/>
+        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="224,285,0,0" Height="54" Grid.Column="1" Click="button6_Click" Grid.ColumnSpan="2" Background="Black" Foreground="#FFFFF7F7" FontSize="20"/>
+        <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="224,208,0,0" Height="54" Click="button3_Click" Grid.Column="1" Grid.ColumnSpan="2" Background="Black" Foreground="White" FontSize="20"/>
+        <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="118,208,0,0" Height="54" Click="button2_Click" Grid.Column="1" Background="#FF060303" Foreground="White" FontSize="20"/>
+        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="15,361,0,0" Height="54" Grid.Column="1" Click="button7_Click" Background="Black" Foreground="White" FontSize="20"/>
+        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="15,285,0,0" Height="54" Click="button4_Click" Grid.Column="1" Background="Black" Foreground="White" FontSize="20"/>
+        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="15,208,0,0" Height="54" Click="button1_Click" Grid.Column="1" Background="Black" Foreground="White" FontSize="20"/>
+        <Button Content="." HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="224,439,0,0" Height="54" Grid.Column="1" Click="buttondot_Click" Grid.ColumnSpan="2" Background="#FF060303" Foreground="White" FontSize="20"/>
+        <Button Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="43,208,0,0" Height="54" Click="buttonad_Click" Grid.Column="2" Background="Black" Foreground="White" FontSize="20"/>
+        <Button Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="43,285,0,0" Height="54" Click="buttonsub_Click" Grid.Column="2" Background="Black" Foreground="White" FontSize="20"/>
+        <Button Content="X" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="43,361,0,0" Height="54" Click="buttonmul_Click" Grid.Column="2" Background="Black" Foreground="White" FontSize="20"/>
+        <Button Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Margin="43,439,0,0" Height="54" Click="buttondiv_Click" Grid.Column="2" Background="#FF060303" Foreground="White" FontSize="20"/>
+        <Button Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="15,439,0,0" Height="54" Click="buttoneq_Click" Grid.Column="1" Background="#FF060303" Foreground="White" FontSize="20"/>
+        <Button Content="C" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="224,135,0,0" Height="55" Click="buttonc_Click" Grid.Column="1" Grid.ColumnSpan="2" Background="Black" Foreground="White" FontSize="20"/>
+        <Button Content="DEL" HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" Margin="15,135,0,0" Height="55" Click="buttondel_Click" Grid.Column="1" Background="Black" Foreground="White" FontSize="20"/>
+        <TextBox x:Name="path" HorizontalAlignment="Left" Height="28" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" Margin="15,16,0,0" Grid.Column="1" Grid.ColumnSpan="2" PreviewTextInput="textbox1_PreviewTextInput" Background="Black" Foreground="White" FontSize="18"/>
+        <Button x:Name="PI" Content="PI" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="43,135,0,0" Height="55" Click="Pi_Click" Grid.Column="2" Background="Black" Foreground="White" FontSize="20"/>
     </Grid>
 </Window>
